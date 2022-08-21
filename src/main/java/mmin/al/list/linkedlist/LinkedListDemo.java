@@ -2,9 +2,17 @@ package mmin.al.list.linkedlist;
 
 public class LinkedListDemo {
     public static void main(String[] args) {
-       testDouble();
+//       testDouble();
+        testJosephusCircle();
     }
 
+    private static void testJosephusCircle(){
+        JosephusCircle circle = new JosephusCircle();
+//        circle.add(5);
+//        circle.print();
+        circle.kill(10,20,225);
+//        circle.print();
+    }
     private static void testDouble(){
         DoubleLinkedList list = new DoubleLinkedList();
         list.add(new HeroNode(1,"bbb","bbb"));
